@@ -1,0 +1,132 @@
+.art{
+  color: rgba(255,255,255,1);
+  background: white;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 10px;
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  margin: 5px;
+  height: 30px;
+  width: 350px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+/*art type*/
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-style: none;
+  font-size: 20px;
+  color:#696969;
+}
+/* Header */
+
+.header {
+  background: #F5F5F5;
+  border-bottom: 1px solid #ddd;
+  
+font-family: 'Raleway', sans-serif;  
+font-weight: 200;
+color:#696969;
+
+  
+  font-size: 70px;
+  padding: 15px;
+}
+
+/*carousel*/
+.arty {
+  display: inline-block;
+  position: absolute;
+padding: 30px;
+margin-left: 100px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+.active-slide {
+    display: block;
+
+}
+
+/*navigation*/
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+.last li{
+  display: inline;
+  list-style: none;
+  padding:20px;
+}
+.bottom:first-child{
+  margin-left: 40px;
+}
+.last{
+  border-top:1px solid #ddd;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 50px;
+  padding: 10px;
+  background: #F5F5F5;
+
+  
+}
+
+
