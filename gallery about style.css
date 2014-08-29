@@ -1,0 +1,59 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+.header {
+  background: #F5F5F5;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+  margin: -10px;
+}
+h1{ 
+font-family: 'Raleway', sans-serif; 
+font-weight: 100;
+color:#696969;
+font-size: 36px;
+margin-left: 102px;
+margin-top: 30px;
+margin-bottom: 19px
+  }
+
+a:link {
+	text-decoration: none;
+}
+
+/*Circle*/
+.circle {
+    border:4px solid #696969;
+    border-radius:100%;
+    height:100px;	
+    width:100px;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 102px;
+}
+
+.circle img{
+border-radius:100%;	
+height:100px;	
+width:100px;
+display:inline-block;
+}
+
+/*Info text*/
+.about{
+	float: right;
+	text-align: justify;
+	margin-left: 250px;
+	margin-right: 700px;
+	position: relative;
+	margin-top: -130px;
+}
+.about h2{
+	color:#45A6C5;
+}
+.about p{
+	font-size: 15px;
+}
